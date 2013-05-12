@@ -1,0 +1,30 @@
+{
+  "name": "mcl",
+  "description": "Simple script to help load controllers and models dynamically",
+  "version": "0.0.1",
+  "author": {
+    "name": "Patrik Ring",
+    "email": "me@patrikring.se"
+  },
+  "keywords": [
+    "mvc",
+    "model",
+    "schema",
+    "controllers",
+    "routing",
+    "dynamic"
+  ],
+  "dependencies": {
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">=0.6.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bloglovin/mcl.git"
+  },
+  "homepage": "http://www.bloglovin.com",
+  "readmeFilename": "README.md",
+  "_id": "mcl@0.0.1"
+}
