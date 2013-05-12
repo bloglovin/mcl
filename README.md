@@ -50,8 +50,6 @@ module.exports = {
   statics: {}
 }
 
-Dependends on mongoose being installed in the main project
-
 Usage:
 
 Example:
@@ -61,6 +59,8 @@ app.set('routes', __dirname +'/routes.json')
 var mvc = require('mvc')(app)
 app.models = mvc.loadModels(fs, db)
 mvc.loadRoutes(mvc.loadControllers(fs))
+
+db should be a mongoose db connection instance as in mongoose.connect()
 
 To use a model;
 app.models.modelFileName.method()
