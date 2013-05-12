@@ -70,5 +70,7 @@ Example:
 db should be a mongoose db connection instance as in
     mongoose.connect()
 
-To use a model;
+To use a model;  
+
     app.models.modelFileName.method()
+    
