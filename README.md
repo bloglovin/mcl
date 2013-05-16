@@ -7,12 +7,12 @@ Install:
 
     npm install
 
-Create the following folders:  
+After install, run
+    
+    cd node_modules/mcl
+    node postinstall.js
 
-PROJECT/controllers
-PROJECT/models
-
-Create the file routes.json
+To automatically set up folders and template files
 
 Examples
 --------
@@ -73,4 +73,3 @@ db should be a mongoose db connection instance as in
 To use a model;  
 
     app.models.modelFileName.method()
-    
