@@ -1,9 +1,5 @@
 {
   "/": {
     "get":"index.view"
-  },
-  "/post": {
-    "get":"posts.view",
-    "post":"posts.add"
   }
 }
