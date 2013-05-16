@@ -1,7 +1,7 @@
 {
   "name": "mcl",
   "description": "Simple script to help load controllers and models dynamically",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Patrik Ring",
     "email": "me@patrikring.se"
@@ -27,5 +27,5 @@
   },
   "homepage": "http://www.bloglovin.com",
   "readmeFilename": "README.md",
-  "_id": "mcl@0.0.1"
+  "_id": "mcl@0.0.2"
 }
